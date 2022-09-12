@@ -1,4 +1,4 @@
-# Tugas Dasar Pemprograman 1
+# Tugas Dasar Pemprograman Semester 1
 
 Berikut tugas pertama mata kuliah Dasar Pemprograman 
 
