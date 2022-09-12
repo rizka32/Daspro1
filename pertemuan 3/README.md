@@ -1,6 +1,6 @@
 # Tugas pertemuan 3 Dasar Pemrograman 
 
-Berikut tugas pertemuan 3 mata kuliah Dasar Pemprograman 
+Berikut tugas pertemuan 3 mata kuliah Dasar Pemrograman 
 
 Nama : Rizka Nugraha
 
