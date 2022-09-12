@@ -1,6 +1,6 @@
-# Tugas 1 Dasar Pemprograman 
+# Tugas 1 Dasar Pemrograman 
 
-Berikut tugas pertama mata kuliah Dasar Pemprograman 
+Berikut tugas pertama mata kuliah Dasar Pemrograman 
 
 Nama : Rizka Nugraha
 
