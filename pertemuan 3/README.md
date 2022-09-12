@@ -1,4 +1,4 @@
-# Tugas pertemuan 3 Dasar Pemprograman 
+# Tugas pertemuan 3 Dasar Pemrograman 
 
 Berikut tugas pertemuan 3 mata kuliah Dasar Pemprograman 
 
