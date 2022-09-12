@@ -1,4 +1,4 @@
-# Tugas Dasar Pemprograman 
+# Tugas Dasar Pemrograman 
 
 ## Selamat datang di repository Tugas Daspro saya 👋
 
