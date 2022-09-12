@@ -2,7 +2,7 @@
 
 ## Selamat datang di repository Tugas Daspro saya 
 
-Berikut tugas pertama mata kuliah Dasar Pemprograman 
+Berikut tugas pertama mata kuliah Dasar Pemrograman 
 
 Nama : Rizka Nugraha
 
