@@ -23,17 +23,18 @@ int main()
     } else {
         luas=phi*r*r; //Phi 3.14
     };
-    cout << "\nHasil luas lingkaran adalah : " << luas << endl;
+    cout << "\nHasil luas lingkaran\ndengan rumus phi*r*r\nadalah : " << luas << endl;
     cout << anu;
 
     // Luas persegi panjang
-    int p,l,luass;
-    p=10;
-    l=5;
-    luass=p*l;
+    float p,l;
+    float luass;
     cout << "Program Operasi Hitung\nLuas Persegi Panjang \n";
     cout << anu;
-    printf("Hasil luas persegi panjang dari \nP = 10, L = 5 \ndengan rumus luas pxl \nadalah : %d\n", luass);
+    cout << "Masukkan panjang : "; cin >> p;
+    cout << "Masukkan lebar : "; cin >> l;
+    luass=p*l;
+    cout << "Hasil luas persegi panjang\ndengan rumus luas p*l \nadalah : " << luass << endl;
     cout << anu;
 
     return 0;
