@@ -34,7 +34,7 @@ int main()
     cout << "Masukkan panjang : "; cin >> p;
     cout << "Masukkan lebar : "; cin >> l;
     luass=p*l;
-    cout << "Hasil luas persegi panjang\ndengan rumus luas p*l \nadalah : " << luass << endl;
+    cout << "\nHasil luas persegi panjang\ndengan rumus luas p*l \nadalah : " << luass << endl;
     cout << anu;
 
     return 0;
