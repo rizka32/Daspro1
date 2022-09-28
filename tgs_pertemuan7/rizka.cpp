@@ -1,6 +1,8 @@
-#include<iostream>
-#include<string.h>
-#include<stdio.h>
+#include <iostream>
+#include <string.h>
+#include <stdio.h>
+#include <limits>
+
 using namespace std;
 
 int main(){
@@ -25,8 +27,24 @@ int main(){
     cout <<"4. Semester 7-8 = " << mahasiswa[3] << endl << endl;
 
     cout << g;
-    cout << "Masukkan jurusan Anda: " ; cin >>  n;
-    cout << "Msukkan semester Anda: "; cin >> m;
+
+    cout << "Masukkan jurusan Anda: ";
+    while(!(cin >> n)) {
+        cout << "Yang Anda masukkan bukan type angka" << endl;
+        cout << "Masukkan jurusan Anda: ";
+        cin.clear();
+        cin.ignore(123,'\n');
+    };
+
+
+    cout << "Masukkan semester Anda: ";
+    while(!(cin >> m)) {
+        cout << "Yang Anda masukkan bukan type angka" << endl;
+        cout << "Masukkan semester Anda: ";
+        cin.clear();
+        cin.ignore(123,'\n');
+    };
+
     if (m >= 1 && m <= 2){
         cout << "Jurusan Anda adalah " << jurusan[n-1]<< "." << endl;
         cout << "Anda dalam kategori " << mahasiswa[0] << " year." << endl;
