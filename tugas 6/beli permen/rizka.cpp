@@ -18,8 +18,7 @@ int main()
 
     switch(pil) {
         case 'a':
-        case 'A':
-            {
+        case 'A': {
             hrga_st = 500;
             jum = uang/hrga_st-5;
             cout << "Dito mendapatkan permen sebanyak " << jum << " buah." << endl;
