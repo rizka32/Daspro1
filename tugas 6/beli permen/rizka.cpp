@@ -35,6 +35,7 @@ int main()
         case 'c':
         case 'C': {
             for(hrga_st = 300; hrga_st <= uang; hrga_st += 300) {
+                cout << i << " ";
                 jum += 1;
             }
             cout << "Dito mendapatkan permen sebanyak " << jum << "." << endl;
