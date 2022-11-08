@@ -38,7 +38,7 @@ int main()
                 cout << hrga_st << " ";
                 jum += 1;
             }
-            cout << "Dito mendapatkan permen sebanyak " << jum << " buah." << endl;
+            cout << "\nDito mendapatkan permen sebanyak " << jum << " buah." << endl;
             break;
         }
         default:
