@@ -9,9 +9,9 @@ int main()
     char pil;
 
     cout << "-------------------------------" << endl;
-    cout << "Pilihan A : Harga permen 500." << endl;
-    cout << "Pilihan B : Harga permen 1000." << endl;
-    cout << "Pilihan C : Harga permen 300." << endl;
+    cout << "Pilihan A : Harga permen Rp 500." << endl;
+    cout << "Pilihan B : Harga permen Rp 1000." << endl;
+    cout << "Pilihan C : Harga permen Rp 300." << endl;
     cout << "-------------------------------" << endl;
     cout << "Masukkan pilihan : ";
     cin >> pil;
@@ -22,23 +22,24 @@ int main()
             {
             hrga_st = 500;
             jum = uang/hrga_st-5;
-            cout << "Dito mendapatkan permen sebanyak " << jum << "." << endl;
+            cout << "Dito mendapatkan permen sebanyak " << jum << " buah." << endl;
         break;
         }
         case 'b':
         case 'B': {
             hrga_st = 1000;
             jum = uang/hrga_st;
-            cout << "Dito mendapatkan permen sebanyak " << jum << "." << endl;
+            cout << "Dito mendapatkan permen sebanyak " << jum << " buah." << endl;
         break;
         }
         case 'c':
         case 'C': {
             for(hrga_st = 300; hrga_st <= uang; hrga_st += 300) {
-                cout << i << " ";
+                cout << "Kelipatan Harga permen Rp 300." << endl; 
+                cout << hrga_st << " ";
                 jum += 1;
             }
-            cout << "Dito mendapatkan permen sebanyak " << jum << "." << endl;
+            cout << "Dito mendapatkan permen sebanyak " << jum << " buah." << endl;
             break;
         }
         default:
