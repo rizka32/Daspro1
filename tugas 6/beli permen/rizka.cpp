@@ -26,7 +26,7 @@ int main()
         }
         case 'b':
         case 'B': {  
-        for(hrga_st = 1000;hrga_st <= 5000; hrga_st += 1000) {
+        for(hrga_st = 1000;hrga_st <= uang; hrga_st += 1000) {
             jum += 1;
     }
             cout << "Dito mendapatkan permen sebanyak " << jum << " buah." << endl;
