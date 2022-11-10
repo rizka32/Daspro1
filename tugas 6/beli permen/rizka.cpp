@@ -25,11 +25,13 @@ int main()
         break;
         }
         case 'b':
-        case 'B': {
-            hrga_st = 1000;
-            jum = uang/hrga_st;
+        case 'B': {  
+        for(hrga_st = 1000;hrga_st <= 5000; hrga_st += 1000) {
+            jum += 1;
+    }
             cout << "Dito mendapatkan permen sebanyak " << jum << " buah." << endl;
-        break;
+    
+             break;
         }
         case 'c':
         case 'C': {
