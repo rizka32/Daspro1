@@ -4,7 +4,7 @@ using namespace std;
 
 int main () {
 
-int i,j,c,a=0, angka, mins, maks;
+int i, j, a=0, angka, mins, maks;
 float range;
 //soal no 1
 cout << "------------------" << endl;
