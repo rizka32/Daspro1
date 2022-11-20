@@ -81,16 +81,18 @@ for(j = 1; j <= 100; j++) {
     }
 
 
-    if(i == 1) {
+    if(j == 1) {
         angka = mins;
         angka = maks;
-    } else if(angka > maks) {
+    } else { if(angka > maks) {
         maks = angka;
-    } else if(angka < mins) {
+    } if(angka < mins) {
         mins = angka;
+    }
     }
 
 }
+cout << endl;
 cout << "Max = " << maks << endl;
 cout <<"Min = " << mins << endl;
 
