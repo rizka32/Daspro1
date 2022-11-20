@@ -45,17 +45,17 @@ cout << "------------------" << endl;
 for(j = 1; j <= 20; j++) {
  cout << j << endl;
  a += j;
- range = a/j;
+ range = (float)a/j;
 }
-cout << "Jumlah = " << a << endl;
-cout << "Rata-rata = "<< range << ".00"<< endl;
+cout << "\nJumlah = " << a << endl;
+cout << "Rata-rata = "<< range << endl;
 
 
 //soal no 5
 cout << "\n------------------" << endl;
 cout << "Soal no. 5" << endl;
 cout << "------------------" << endl;
-cout << "Program ini berhenti jika Anda  Menginputkan Angka = -99" << endl;
+cout << "Program ini berhenti jika Anda  Menginputkan Angka = -99\n" << endl;
 
 for(j = 1; j <= 100; j++) {
     cout << "Masukan Nilai Anda ";
@@ -76,21 +76,19 @@ for(j = 1; j <= 100; j++) {
     cout << "Masukan Nilai Anda ";
     cin >> angka;
     if(angka == -99) {
-
         break;
     }
 
 
     if(j == 1) {
-        angka = mins;
-        angka = maks;
+        mins = angka;
+        maks = angka;
     } else { if(angka > maks) {
         maks = angka;
     } if(angka < mins) {
         mins = angka;
     }
     }
-
 }
 cout << endl;
 cout << "Max = " << maks << endl;
