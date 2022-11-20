@@ -5,7 +5,8 @@ using namespace std;
 int main () {
 
 int i, j, a=0, angka, mins, maks;
-float range;
+float ra;
+
 //soal no 1
 cout << "------------------" << endl;
 cout << "Soal no. 1" << endl;
@@ -25,7 +26,6 @@ for( j = 1; j <= 100; j++) {
     cout << "Nilai genap adalah " << j << endl;
 }
 
-
 // soal no 3
 cout << "\n------------------" << endl;
 cout << "Soal no. 3" << endl;
@@ -35,7 +35,6 @@ for(i = 100; i >= 1; i--) {
     if(i == 55) {
         break;
     }
-
 }
 
 // soal no 4
@@ -45,18 +44,16 @@ cout << "------------------" << endl;
 for(j = 1; j <= 20; j++) {
  cout << j << endl;
  a += j;
- range = (float)a/j;
+ ra = (float)a/j;
 }
 cout << "\nJumlah = " << a << endl;
-cout << "Rata-rata = "<< range << endl;
-
+cout << "Rata-rata = "<< ra << endl;
 
 //soal no 5
 cout << "\n------------------" << endl;
 cout << "Soal no. 5" << endl;
 cout << "------------------" << endl;
 cout << "Program ini berhenti jika Anda  Menginputkan Angka = -99\n" << endl;
-
 for(j = 1; j <= 100; j++) {
     cout << "Masukan Nilai Anda ";
     cin >> angka;
@@ -65,8 +62,6 @@ for(j = 1; j <= 100; j++) {
         break;
     }
 }
-
-
 
 //soal no 6
 cout << "\n------------------" << endl;
@@ -78,7 +73,6 @@ for(j = 1; j <= 100; j++) {
     if(angka == -99) {
         break;
     }
-
 
     if(j == 1) {
         mins = angka;
