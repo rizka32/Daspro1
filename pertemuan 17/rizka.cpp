@@ -44,10 +44,10 @@ cout << "------------------" << endl;
 for(j = 1; j <= 20; j++) {
  cout << j << endl;
  a += j;
- ra = (float)a/j;
+ ra = a/j;
 }
 cout << "\nJumlah = " << a << endl;
-cout << "Rata-rata = "<< ra << endl;
+cout << "Rata-rata = "<< ra << ".00" << endl;
 
 //soal no 5
 cout << "\n------------------" << endl;
