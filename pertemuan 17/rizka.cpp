@@ -4,8 +4,8 @@ using namespace std;
 
 int main () {
 
-int i, j, a=0, angka, mins, maks, b=0, has, c, z, p=0, m, n=0;
-float ra, f;
+int i, j, a=0, angka, mins, maks, b=0, c, z, p=0, m, n=0;
+float ra, f, anga, has;
 string k[9] = {"Air Mendidih",
                 "Air Mandi Panas",
                 "Temperatur Tubuh",
@@ -163,19 +163,19 @@ cout << "\n------------------" << endl;
 cout << "Soal no. 11" << endl;
 cout << "------------------" << endl;
 cout << "Masukan angka = ";
-cin >> angka;
+cin >> anga;
 for(i = 1; i <= 10; i++) {
-    has = i*angka;
-    cout << i << " x " << angka << " = " << has << endl;
+    has = i*anga;
+    cout << i << " x " << anga << " = " << has << endl;
 }
 
 //soal no 12
 cout << "\n------------------" << endl;
 cout << "Soal no. 12" << endl;
 cout << "------------------" << endl;
-cout << "-------------------------" << endl;
-cout << "Celcius\tFahrenheit" << endl;
-cout << "-------------------------" << endl;
+cout << "----------------------------" << endl;
+cout << "Celcius \t Fahrenheit" << endl;
+cout << "----------------------------" << endl;
 for(c = 0; c <= 100; c++) {
   f = ((9.0/5)*c)+32;
   printf("%d \t|\t %.1f |\n", c, f);
@@ -200,16 +200,16 @@ for(c = 100; c >= -45; c--) {
   printf("%d \t\t %.1f \t\t %s \n", c, f, k[3].c_str());
   } else if(c == 21) {
   printf("%d \t\t %.1f \t\t %s \n", c, f, k[4].c_str());
-} else if(c == 10) {
+  } else if(c == 10) {
   printf("%d \t\t %.1f \t\t %s \n", c, f, k[5].c_str());
-} else if(c == 0) {
+  } else if(c == 0) {
   printf("%d \t\t %.1f \t\t %s \n", c, f, k[6].c_str());
-} else if(c == -18) {
+  } else if(c == -18) {
   printf("%d \t\t %.1f \t\t %s \n", c, f, k[7].c_str());
-} else if(c == -40) {
+  } else if(c == -40) {
   printf("%d \t\t %.1f \t\t %s \n", c, f, k[8].c_str());
   cout << "------------------------------------------------------------------------------" << endl;
-}
+  }
 }
 
 return 0;
