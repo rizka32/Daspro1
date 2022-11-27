@@ -105,11 +105,12 @@ cout << "------------------" << endl;
 for(j = 1; ; j++) {
     cout << "Masukan Nilai Anda = ";
     cin >> z;
+    cout << z << endl;
     if(z == 9999) {
         break;
+    } else if(z != 9999) {
+        p += z;
     }
-    cout << z << endl;
-    p = p + z;
 }
 cout << "Jumlah angka = " << p << endl;
 
@@ -120,11 +121,12 @@ cout << "------------------" << endl;
 for(j = 0; ; j++) {
     cout << "Masukan Nilai Anda = ";
     cin >> angka;
+    cout << angka << endl;
     if(angka == 9999) {
         break;
+    } else if(angka != 9999) {
+        a += j;
     }
-    cout << angka << endl;
-    a += j;
 }
 cout << "Jumlah angka = " << j << endl;
 
