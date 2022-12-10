@@ -9,7 +9,7 @@ int hm[3][2][2];
 printf("Array kelipatan 4 = ");
 for(int o = 0; o < 3; o++) {
     for(int k = 0; k < 2; k++) {
-        for(int e = 0; e < 2; e++){
+        for(int e = 0; e < 2; e++) {
             hm[o][k][e] = mel;
             mel += 2;
             printf("%d " "", mel);
