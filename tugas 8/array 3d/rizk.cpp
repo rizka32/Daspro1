@@ -12,10 +12,12 @@ for(int o = 0; o < 3; o++) {
         for(int e = 0; e < 2; e++) {
             hm[o][k][e] = mel;
             mel += 2;
+            if(mel % 4 == 0) {
             printf("%d " "", mel);
             co += mel;
             love += you;
             rata_rata = (float)co / love;
+            }
         }
     }
 }
